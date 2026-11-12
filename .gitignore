@@ -1,0 +1,23 @@
+# SwiftPM
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcodeproj
+xcuserdata/
+DerivedData/
+
+# Сборки приложения
+/dist/
+*.app
+*.dmg
+
+# macOS
+.DS_Store
+
+# Исходники графики, которые не нужны в репозитории
+*.aseprite~
+
+# Локальные настройки Claude Code
+.claude/settings.local.json
